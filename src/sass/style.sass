@@ -377,8 +377,114 @@ nav
 			&:before
 				background: url('../images/icons/checked-red.png') center center/cover no-repeat	
 
+.world
+	position: relative
+	min-height: 720px
+	background: url('../images/world_bg.jpg') center center/cover no-repeat
+	padding: 46px 0
 
+	&__head
+		background: #fff
+		color: #000
+	&__title
+		color: #fff
+	&__subtitle
+		color: #fff
 
+	&__link
+		a
+			position: absolute
+			left:50%
+			transform: translateX(-50%)
+			bottom: 46px
+			font-weight: 400
+			font-size: 15px
+			text-transform: uppercase
+			color: #1FBAD6
+			text-align: center
+			text-decoration: none		
+			&:hover
+				color: #fff
 
+footer
+	min-height: 156px
+	padding: 11px 21px 40px 21px
 	
+	a
+		text-decoration: none
+		&:hover
+			color: #000
+	li
+		list-style-type: none
+	
+.footer
+	&__wrapper
+		display: flex
+		justify-content: space-between
 
+	&__wrapper > div
+		width: 33%
+		&:nth-child(3)
+			display: flex 
+			justify-content: flex-end
+
+	&__line
+		margin: 0 auto
+		width: 301px
+		height: 7px
+		background: #1FBAD6
+		margin-bottom: 35px
+
+	&__social
+		display: flex
+
+	&__rectangle
+		margin-right: 6px
+		display: flex
+		justify-content: center
+		align-items: center
+		width: 35px
+		height: 35px
+		background-color: #000
+		border-radius: 100%
+		cursor: pointer
+
+	&__link-line-one
+		ul
+			padding: 0
+			display: flex
+			align-items: center
+			justify-content: space-around
+			li
+				font-weight: 300
+				font-size: 15px
+				text-transform: uppercase
+				color: #070716
+				
+
+	&__link-line-two
+		ul
+			padding: 0
+			display: flex
+			align-items: center
+			justify-content: space-between
+			li
+				font-weight: 300
+				font-size: 11px
+				align-items: center
+				text-transform: uppercase
+				color: #999999
+				
+	&__link-line-three
+		ul
+			margin-bottom: 0
+			padding: 0
+			display: flex
+			align-items: center
+			justify-content: center
+			li
+				font-weight: 400
+				font-size: 11px
+				text-align: center
+				text-transform: uppercase
+				color: #1FBAD6
